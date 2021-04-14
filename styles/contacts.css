@@ -1,0 +1,154 @@
+@font-face { 
+    font-family: "GilroyThin";
+    src: url("../fonts/GilroyThin/GilroyThin.eot");
+    src: url("../fonts/GilroyThin/GilroyThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyThin/GilroyThin.woff") format("woff"),
+    url("../fonts/GilroyThin/GilroyThin.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 100;
+}
+body{
+    overflow-x: hidden;
+}
+ 
+ header {
+    width: 100%;
+  
+   color: #FBC70E
+   ;
+   background-color: #65256F;
+ 
+ 
+ }
+ .purple p{
+     align-items: center;
+     margin-top: 10px;
+ }
+ .purple{
+    font-family: gilroy;
+
+    width: 100%;
+display: flex;
+justify-content: space-between;
+ font-size: 13px;
+margin: 0 -100px;
+}
+span{
+    margin-left: 30px;
+    color: #FBC70E;
+}
+.purple p:nth-child(2){
+    color: #FFFFFF;
+}
+.purple p:nth-child(1){
+
+    margin-left: 190px;
+}
+
+.white{
+    border: 2px solid #BEBEBE;
+
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    
+    align-items: center;
+}
+.white img{
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 82px;
+    flex: 0 1 10%;
+    }
+    .white2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .white2 ul, li{
+        /* flex: 0 0 50%; */ 
+        /* margin: -400px 2230px ; */
+        display: flex;
+     justify-content: space-between; 
+        list-style: none;
+        margin:0 -70px; 
+         margin-top: -20px;
+        margin-left: 125px;
+        font-size: 14px ;
+    }
+    .as{
+        color: black;
+        text-decoration: none;
+    }
+    .knopka{
+        flex: 0 1 13%; 
+       width: 200px;
+       height: 41px;
+       margin-top: -42px;
+       border-radius: 5px;
+       background-color: #65256F;
+       color: white;
+       font-size: 14px;
+       align-items: center;
+    }
+
+
+    .nachalo{
+        width: 40%;
+        margin-left: 140px;
+    }
+    .nachalo h2{
+        margin-top: 40px;
+        font-style: normal;
+        font-size: 40px;
+        font-family: gilroy;
+font-weight: 900;
+margin-left: -30px;
+    }
+.nachalo h3{
+    font-size: 24px;
+    margin-top: 50px;
+text-align: left;
+    font-family: gilroy;
+    color: #A4A4A4;
+}
+.nachalo p{
+    font-size: 14px;
+    text-align: left;
+
+}
+.nachalo img{
+    margin-top: -75px;
+    margin-left: -32px;
+}
+.img1{
+    width: 40%;
+}
+.img1 img{
+    margin-top:-425px;
+    margin-left: 580px;
+width: 600px;
+}
+footer {
+    margin-top: 50px;
+    border: 80px solid #3A3A3A;
+}
+
+.comanda5{
+    margin:0px 0px;
+    background-color: #3A3A3A;
+    color: white;
+    text-align: left;
+}
+.comanda5 p{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
+.comanda5 h3{
+    margin-top: -50px;
+    font-size: 14px;
+}

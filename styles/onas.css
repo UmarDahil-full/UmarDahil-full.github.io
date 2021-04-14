@@ -1,0 +1,448 @@
+@font-face { 
+    font-family: "GilroyThin";
+    src: url("../fonts/GilroyThin/GilroyThin.eot");
+    src: url("../fonts/GilroyThin/GilroyThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyThin/GilroyThin.woff") format("woff"),
+    url("../fonts/GilroyThin/GilroyThin.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 100;
+}
+body{
+    overflow-x: hidden;
+}
+ 
+ header {
+    width: 100%;
+  
+   color: #FBC70E
+   ;
+   background-color: #65256F;
+ 
+ 
+ }
+ .purple p{
+    align-items: center;
+    margin-top: 10px;
+}
+ .purple{
+    font-family: gilroy;
+
+    width: 100%;
+display: flex;
+justify-content: space-between;
+
+font-size: 13px;
+margin: 0 -100px;
+}
+span{
+    margin-left: 30px;
+    color: #FBC70E;
+}
+.purple p:nth-child(2){
+    color: #FFFFFF;
+}
+.purple p:nth-child(1){
+
+    margin-left: 190px;
+}
+
+.white{
+    border: 2px solid #BEBEBE;
+
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    
+    align-items: center;
+}
+.white img{
+width: 60%;
+margin-top: 10px;
+margin-left: 82px;
+flex: 0 1 10%;
+}
+.white2{
+    display: flex;
+    justify-content: space-around;
+}
+.white2 ul, li{
+    /* flex: 0 0 50%; */ 
+    /* margin: -400px 2230px ; */
+    display: flex;
+ justify-content: space-between; 
+    list-style: none;
+    margin:0 -70px; 
+     margin-top: -20px;
+    margin-left: 125px;
+    font-size: 14px ;
+}
+.as{
+    color: black;
+    text-decoration: none;
+}
+.knopka{
+    flex: 0 1 13%; 
+   width: 200px;
+   height: 41px;
+   margin-top: -42px;
+   border-radius: 5px;
+   background-color: #65256F;
+   color: white;
+   font-size: 14px;
+    
+   
+   /* margin-left: 950px;
+   margin-top: -50px; */
+} 
+.kart {
+width:100% ;
+}
+.kart img{
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 1100px;
+    height: 400px;
+    border-radius: 3px;
+    
+}
+
+.zagolovok{
+    margin-top: 30px;
+    font-family: gilroythin;
+    text-align: center;
+}
+.zagolovok:before{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 611px;
+    left: 60%;
+}
+.zagolovok::after{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 611px;
+    left: 0%;
+}
+.zagolovok1 p{
+    margin-top: 20px;
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+   color: black;
+}
+.zagolovok2{
+    margin-top: 70px;
+    font-family: gilroythin;
+    text-align: center;
+}
+.zagolovok2:before{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 35%;
+    position: absolute;
+    top: 810px;
+    left: 65%;
+}
+.zagolovok2::after{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 35%;
+    position: absolute;
+    top: 810px;
+    left: 0%;
+}
+.row {
+    width: 90%;    
+
+}
+.row img{
+    margin-left: 50px;
+    width: 300px;
+}
+.kartinkka{
+    position: relative;
+    background: url(../pics/Rectangle\ 161.png);
+    width: 100%;
+    height: 445px;
+}
+.kartinkka img {
+    position: absolute;
+    z-index: 0;
+}
+.krug1{    
+    color: white;
+    z-index: 2;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.krug1 h3{
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.krugp1{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+}
+
+.krug2{    
+    z-index: 2;
+
+    color: white;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.krug2 h3{
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.krugp2{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+}
+
+.krug3{    
+    z-index: 2;
+
+    color: white;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.krug3 h3{
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.krugp3{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+}
+
+.krug4{    
+    z-index: 2;
+
+    color: white;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.krug4 h3{
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.krugp4{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+}
+
+.krug5{    
+    z-index: 2;
+
+    color: white;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.krug5 h3{
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.krugp5{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+}
+
+
+.krug6{    
+    z-index: 2;
+
+    color: white;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.krug6 h3{
+    margin-top: 25px;
+    margin-left: 13px;
+}
+.krugp6{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+}
+
+.vse {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vse p, h3{
+    font-family: Gilroy;
+}
+.kartinkka h2{
+    top: 40px;
+    left: 20px;
+    position: absolute;
+    margin-left: 500px;
+    color: white;
+    font-family: Gilroy;
+ }
+
+
+.zad{
+    width: 100%;
+}
+ .zad h2{
+    margin-top: 30px;
+    font-family: gilroythin;
+    text-align: center;
+}
+.zad:before{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 1760px;
+    left: 65%;
+}
+.zad::after{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 35%;
+    position: absolute;
+    top: 1760px;
+    left: 0%;
+}
+.comanda22{
+    margin-top: 50px;
+    width: 100%;
+}
+.comanda22 img{
+    width: 35px;
+    margin-left: 180px;
+}
+.comanda22 p{
+    margin-left: 120px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+ }
+
+
+ .zagolovok5{
+    margin-top: 80px;
+    font-family: gilroythin;
+    text-align: center;
+}
+.zagolovok5:before{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 2035px;
+    left: 60%;
+}
+.zagolovok5::after{
+    content: '';
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 2035px;
+    left: 0%;
+}
+
+.comanda2 img{
+    width: 130px;
+    margin: 30px;   
+}
+.comanda2{
+    margin-left: 60px;
+}
+
+.blabla  h2{
+    margin-top: 70px;
+    font-family: gilroythin;
+    text-align: center;
+    font-size: 35px;
+}
+.blabla p{
+    width: 100%;
+    margin-left: 400px;
+    font-size: 14px;
+    color: #585858, 100%;
+}
+
+.inputs{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 720px;
+    margin-left: 170px;
+    color: #E5E3E3; 
+}
+
+.form-control{
+    margin: 30px 20px;
+
+ }
+ .btnn button{
+  height: 34px;
+     width: 200px;
+     border-radius: 4px;
+     
+ }
+.btnn{
+    margin-left: 920px;
+    margin-top: -83px;
+}
+footer {
+    margin-top: 50px;
+    border: 80px solid #3A3A3A;
+}
+
+.comanda5{
+    margin:0px 0px;
+    background-color: #3A3A3A;
+    color: white;
+    text-align: left;
+}
+.comanda5 p{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
+.comanda5 h3{
+    margin-top: -50px;
+    font-size: 14px;
+}
+
